@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      time {
+        font-style: italic;
+        color: blue;
+      }
+    </style>
+
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <h1 style="color: red">Property Insurance Application</h1>
+    <h3 style="color: white">GDC Insurance Limited</h3>
+
+    <table>
+      <tr>
+        <th><a href="htmlform.html">Quote form</a></th>
+        <th></th>
+        <th><a href="htmllaptopdetailsform.html">Laptop form</a></th>
+      </tr>
+    </table>
+    <br />
+    <br />
+
+    <form action="http://localhost:8080/adddetailstodatabase">
+      <!--  Start of row 1 -->
+      <label for="prefix">Prefix</label>
+      <input
+        type="text"
+        name="prefix"
+        id="prefix"
+        placeholder="Prefix e.g. Ms, Mr, Dr..."
+      />
+      <!--  End of row 1 -->
+      <br />
+
+      <!--  Start of row 2 -->
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname" />
+      <!--  End of row 2 -->
+      <br />
+
+      <!--  Start of row 3 -->
+      <label for="lastname">Last Name</label>
+      <input type="text" name="lastname" id="lastname" />
+      <!--  End of row 3 -->
+      <br />
+
+      <!--  Start of row 4 -->
+      <label for="housenumber">House Number</label>
+      <input type="text" name="housenumber" id="housenumber" />
+      <!--  End of row 4 -->
+      <br />
+
+      <!--  Start of row 5 -->
+      <label for="street">Street Name</label>
+      <input type="text" name="street" id="street" />
+      <!--  End of row 5 -->
+      <br />
+
+      <!--  Start of row 6 -->
+      <label for="city">City</label>
+      <input type="text" name="city" id="city" />
+      <!--  End of row 6 -->
+      <br />
+
+      <!--  Start of row 7 -->
+      <label for="postcode">Postcode</label>
+      <input type="text" name="postcode" id="postcode" />
+      <!--  End of row 7 -->
+      <br />
+
+      <!--  Start of row 8 -->
+      <label for="hometype">Home Type</label>
+      <select name="hometype" id="hometype">
+        <option label="House" value="House"></option>
+        <option label="Bungalow" value="Bungalow"></option>
+        <option label="Apartment" value="Apartment"></option>
+        <option label="Ranch" value="Ranch"></option>
+      </select>
+      <br />
+      <!--  End of row 8 -->
+
+      <!--  Start of row 9 -->
+      <label for="homevalue">Current Property Value</label>
+      <input
+        type="range"
+        id="homevalue"
+        name="homevalue"
+        value="00"
+        min="0"
+        max="5000000"
+        oninput="document.getElementById('propertyprice').innerHTML = this.value"
+      />
+      <label id="propertyprice"></label>
+      <!--  End of row 9 -->
+      <br />
+
+      <!--  Start of row 10 -->
+      <label for="ageofproperty">Age of property</label>
+      <input
+        type="number"
+        name="ageofproperty"
+        id="ageofproperty"
+        min="1"
+        max="100"
+      />
+      <!--  End of row 10 -->
+      <br />
+
+      <!--  Start of row 11 -->
+      <label for="insurancetype">Building and contents insurance </label>
+      <input
+        type="radio"
+        name="insurancetype"
+        id="buildingandcontents"
+        value="buildingandcontents"
+      />
+
+      <label for="insurancetype">Contents only insurance </label>
+      <input type="radio" name="insurancetype" id="contents" value="contents" />
+      <!--  End of row 11 -->
+      <br />
+
+      <!--  Start of row 12 -->
+      <input type="checkbox" name="chklaptop" id="chklaptop" value="laptop" />
+      <label for="chklaptop">Include 1 laptop (less than $3000)</label>
+      <!--  End of row 12 -->
+      <br />
+
+      <!--  Start of row 13 -->
+      <input
+        type="checkbox"
+        name="chkJewellery"
+        id="chkJewellery"
+        value="jewellery"
+      />
+      <label for="chkJewellery"
+        >Include 1 high value jewellery item (less than $6000)</label
+      >
+      <!--  End of row 13 -->
+      <br />
+
+      <!--  Start of row 14 -->
+      <input
+        type="checkbox"
+        name="chkAwayFromHome"
+        id="chkAwayFromHome"
+        value="awayfromhome"
+      />
+      <label for="chkAwayFromHome"
+        >Include insurance for items while out of property</label
+      >
+      <!--  End of row 14 -->
+      <br />
+
+      <!--  Start of row 15 -->
+      <label for="insurancestartdate">Insurance Start Date:</label>
+      <input
+        type="date"
+        id=" insurancestartdate "
+        name="insurancestartdate"
+        min="2022-01-01"
+        max="2022-12-31"
+      />
+      <!--  End of row 15 -->
+      <br />
+
+      <!--  Start of row 16 -->
+      <label for="insurancestarttime">Insurance Start Time:</label>
+      <input
+        type="time"
+        id="insurancestarttime"
+        name="insurancestarttime"
+        min="00:00:00"
+      />
+      <!--  End of row 16 -->
+      <br />
+
+      <!--  Start of row 17 -->
+      <label for="datetimeofinsurancestart"
+        >Insurance Start Date and Time:</label
+      >
+      <input
+        type="datetime-local"
+        id="datetimeofinsurancestart"
+        name="datetimeofinsurancestart"
+      />
+      <!--  End of row 17 -->
+      <br />
+
+      <!-- Start of last row -->
+      <input type="submit" value="Submit details to server application" />
+      <!--  End of last row -->
+    </form>
+  </body>
+</html>
