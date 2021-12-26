@@ -24,7 +24,7 @@
     },
     "finish": {
       "text": "finish.md"
-    }
+    },
     "assets": {
 			"client": [
 				{ "file": "HTMLForm.html", "target": "~/assets" }
