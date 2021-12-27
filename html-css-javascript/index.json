@@ -1,6 +1,6 @@
 {
   "title": "HTML-CSS-JAVASCRIPT",
-  "description": "Learn to develop a small web application.",
+  "description": "Learn to develop a small web application to receive an insurance quote for a property.",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -47,7 +47,8 @@
     },
     "assets": {
 			"client": [
-				{ "file": "HTMLForm.html", "target": "~/assets" }
+				{ "file": "Step1StarterHTML.html", "target": "~/assets" },
+        { "file": "Step2StarterHTML.html", "target": "~/assets" }
 			]
 		}
   },
