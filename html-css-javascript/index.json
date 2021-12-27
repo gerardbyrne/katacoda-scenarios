@@ -6,16 +6,36 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Creating a basic Hypertext Markup Language document with a form within it",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Adding input boxes to the form",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Adding a select tag to the form",
         "text": "step3.md"
+      },
+      {
+        "title": "Adding a range tag to the form",
+        "text": "step4.md"
+      },
+      {
+        "title": "Adding radio buttons to the form",
+        "text": "step5.md"
+      },
+      {
+        "title": "Adding checkboxes to the form",
+        "text": "step6.md"
+      },
+      {
+        "title": "Adding date inputs to the form",
+        "text": "step7.md"
+      },
+      {
+        "title": "Adding a submit button to the form",
+        "text": "step8.md"
       }
     ],
     "intro": {

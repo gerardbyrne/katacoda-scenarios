@@ -44,11 +44,11 @@ There are no prerequisites fior this scenario. We just need to believe we can wr
 
 The list below shows the related scenarios that culminate in the final form:  
 
-- creating a basic Hypertext Markup Language document with a form within it
-- adding input boxes to the form.
-- adding a select tag to the form.
-- adding a range tag to the form.
-- adding radio buttons to the form.
-- adding checkboxes to the form.
-- adding date  to the form.
-- adding a submit button to the form.
+1. creating a basic Hypertext Markup Language document with a form within it
+2. adding input boxes to the form.
+3. adding a select tag to the form.
+4. adding a range tag to the form.
+5. adding radio buttons to the form.
+6. adding checkboxes to the form.
+7. adding date inputs to the form.
+8. adding a submit button to the form.
