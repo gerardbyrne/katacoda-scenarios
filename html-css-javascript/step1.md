@@ -32,14 +32,6 @@ While the final code including the form tag, ```<form action=""> </form>```, wil
 
 `./assets/HTMLForm.html`{{open}}
 
-``<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>HTML Forms</title>
-  </head>
-  <body>
-  </body>
-</html>
-``{{copy}}
+`<!DOCTYPE html><html lang="en"><head><title>HTML Forms</title></head><body></body></html>`{{copy}}
 
 `document.getElementById("demo").innerHTML = "Hello JavaScript";`{{copy}}
