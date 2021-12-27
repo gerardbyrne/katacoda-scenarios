@@ -32,7 +32,7 @@ While the final code including the form tag, ```<form action=""> </form>```, wil
 
 `./assets/HTMLForm.html`{{open}}
 
-`<!DOCTYPE html>
+``<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>HTML Forms</title>
@@ -40,6 +40,6 @@ While the final code including the form tag, ```<form action=""> </form>```, wil
   <body>
   </body>
 </html>
-`{{copy}}
+``{{copy}}
 
-`Test`{{copy}}
+`document.getElementById("demo").innerHTML = "Hello JavaScript";`{{copy}}
