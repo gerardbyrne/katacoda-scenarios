@@ -1,4 +1,4 @@
-# Heading for Step 3
+# Adding radio buttons to the form
 
 This is some text.
 

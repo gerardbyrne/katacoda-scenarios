@@ -1,8 +1,42 @@
-# Heading for Step 1
+# Creating a basic Hypertext Markup Language document with a form within it
 
-This is some text.
+We will create a basic Hypertext Markup Language page, HTML page, and then add a form within the HTML page. This will be the start for other scenarios which will add additional elements to the HTML page within the ```<form></form>``` tags.
 
-Here's a single line of runnable code:
+The final code for the basic HTML page will be:
 
-`printf 'Hello, world!\n\n'`{{execute}}
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+  </body>
+</html>
+```
 
+While the final code including the form tag, ```<form action=""> </form>```, will be:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+       <form action="">
+       </form>
+  </body>
+</html>
+```
+
+`./assets/HTMLForm.html`{{open}}
+
+`<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HTML Forms</title>
+  </head>
+  <body>
+  </body>
+</html>`{{execute}}

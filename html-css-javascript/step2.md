@@ -1,4 +1,4 @@
-# Heading for Step 2
+# Adding input boxes to the form"
 
 This is some text.
 

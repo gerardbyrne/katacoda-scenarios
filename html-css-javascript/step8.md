@@ -1,4 +1,4 @@
-# Heading for Step 3
+# Adding a submit button to the form
 
 This is some text.
 
