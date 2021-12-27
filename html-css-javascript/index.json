@@ -48,7 +48,9 @@
     "assets": {
 			"client": [
 				{ "file": "Step1StarterHTML.html", "target": "~/assets" },
-        { "file": "Step2StarterHTML.html", "target": "~/assets" }
+        { "file": "Step2StarterHTML.html", "target": "~/assets" },
+        { "file": "Step2TextInputsHTML.html", "target": "~/assets" },
+        { "file": "Step3StarterHTML.html", "target": "~/assets" }
 			]
 		}
   },
