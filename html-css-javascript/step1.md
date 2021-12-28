@@ -126,3 +126,7 @@ In completing this scenario we can copy and paste the code included in these ins
      `<form action="" method="POST">`
    - we can also achieve the sending of the form data by using the
      `<form action="" method="GET">`
+
+docker run -p 80:80 -d katacoda/docker-http-server{{execute}}
+
+curl localhost{{execute}}
