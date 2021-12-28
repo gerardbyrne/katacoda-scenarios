@@ -130,3 +130,7 @@ In completing this scenario we can copy and paste the code included in these ins
 `docker run -p 80:80 -d katacoda/docker-http-server`{{execute}}
 
 `curl localhost`{{execute}}
+
+https://gerardbyrne-80-2b04772a8d97.environments.katacoda.com
+
+<!-- https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com -->
