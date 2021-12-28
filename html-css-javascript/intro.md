@@ -46,9 +46,10 @@ The list below shows the related scenarios that culminate in the final form:
 
 1. creating a basic Hypertext Markup Language document with a form within it
 2. adding input boxes to the form.
-3. adding a select tag to the form.
-4. adding a range tag to the form.
-5. adding radio buttons to the form.
-6. adding checkboxes to the form.
-7. adding date inputs to the form.
-8. adding a submit button to the form.
+3. adding an input control of type select to the form.
+4. adding an input control of type range to the form.
+5. adding an input of type number to the form.
+6. adding radio buttons to the form.
+7. adding checkboxes to the form.
+8. adding date inputs to the form.
+9. adding a submit button to the form.

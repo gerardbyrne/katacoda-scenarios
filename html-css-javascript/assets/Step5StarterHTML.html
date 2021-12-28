@@ -50,6 +50,30 @@
         <!--  End of row 7 -->
         <br />
 
+        <!--  Start of row 8 -->
+        <label for="hometype">Home Type</label>
+        <select name="hometype" id="hometype">
+            <option label="House" value="House"></option>
+            <option label="Bungalow" value="Bungalow"></option>
+            <option label="Apartment" value="Apartment"></option>
+            <option label="Ranch" value="Ranch"></option>
+        </select>
+        <!--  End of row 8 -->
+        <br />
+
+        <!--  Start of row 9 -->
+        <label for="homevalue">Current Property Value</label>
+        <input type="range" id="homevalue" name="homevalue" value="00" min="0" max="5000000"
+            oninput="document.getElementById('propertyprice').innerHTML = this.value" />
+        <label id="propertyprice"></label>
+        <!--  End of row 9 -->
+        <br />
+
+        <!--  Start of row 10 -->
+        <label for="ageofproperty">Age of property</label>
+        <input type="number" name="ageofproperty" id="ageofproperty" min="1" max="100" />
+        <!--  End of row 10 -->
+        <br />
     </form>
 </body>
 
