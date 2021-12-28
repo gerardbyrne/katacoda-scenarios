@@ -14,28 +14,32 @@
         "text": "step2.md"
       },
       {
-        "title": "Adding a select tag to the form",
+        "title": "Adding an input control of type select to the form",
         "text": "step3.md"
       },
       {
-        "title": "Adding a range tag to the form",
+        "title": "Adding an input control of type range to the form",
         "text": "step4.md"
       },
       {
-        "title": "Adding radio buttons to the form",
+        "title": "Adding an input of type number to the form",
         "text": "step5.md"
-      },
+      },      
       {
-        "title": "Adding checkboxes to the form",
+        "title": "Adding radio buttons to the form",
         "text": "step6.md"
       },
       {
-        "title": "Adding date inputs to the form",
+        "title": "Adding checkboxes to the form",
         "text": "step7.md"
       },
       {
-        "title": "Adding a submit button to the form",
+        "title": "Adding date inputs to the form",
         "text": "step8.md"
+      },
+      {
+        "title": "Adding a submit button to the form",
+        "text": "step9.md"
       }
     ],
     "intro": {
@@ -50,7 +54,14 @@
 				{ "file": "Step1StarterHTML.html", "target": "~/assets" },
         { "file": "Step2StarterHTML.html", "target": "~/assets" },
         { "file": "Step2TextInputsHTML.html", "target": "~/assets" },
-        { "file": "Step3StarterHTML.html", "target": "~/assets" }
+        { "file": "Step3StarterHTML.html", "target": "~/assets" },
+        { "file": "Step4StarterHTML.html", "target": "~/assets" },
+        { "file": "Step5StarterHTML.html", "target": "~/assets" },
+        { "file": "Step6StarterHTML.html", "target": "~/assets" },
+        { "file": "Step7StarterHTML.html", "target": "~/assets" },
+        { "file": "Step8StarterHTML.html", "target": "~/assets" },
+        { "file": "Step9StarterHTML.html", "target": "~/assets" },
+        { "file": "Step9CompletedHTML.html", "target": "~/assets" }
 			]
 		}
   },
