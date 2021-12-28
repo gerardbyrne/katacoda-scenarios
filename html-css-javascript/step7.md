@@ -1,4 +1,4 @@
-# Adding checkboxes to the form
+###### Let's create some code
 
 Now we have the HTML form with some input boxes, select control, a range slider, a number input and a set of radio buttons, we will add an additional control to the form. In this step we will add an input control for a **check boxes** which will display a number of choices where the user will be able to check more than one of the check boxes.
 

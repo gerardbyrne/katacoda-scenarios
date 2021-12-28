@@ -1,4 +1,4 @@
-# Adding an input of type number to the form
+###### Let's create some code
 
 Now we have the HTML form with some input boxes, select control and a range slider, we will add an additional control to the form. In this step we will add an input control for a **number** which will display a control with an up and down arrow to allow the user to increase or decrease the number that represents the age of the property. This number control can have attributes to set the minimum and maximum number available.
 

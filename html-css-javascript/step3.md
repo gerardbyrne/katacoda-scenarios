@@ -1,4 +1,4 @@
-# Adding an input control of type select to the form
+###### Let's create some code
 
 Now we have the HTML form with some input boxes that will hold text, we will add a additional control to the form. In this step we will add a **select** control which will display a **drop-down** list of **options** for the user, and they will be expected to choose one of the options.
 

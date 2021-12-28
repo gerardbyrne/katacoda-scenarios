@@ -1,4 +1,4 @@
-# Adding date inputs to the form
+###### Let's create some code
 
 Now we have the HTML form with controls, we will add additional controls to the form. In this step we will add input controls for a **date**, a **time** and a **datetime-local** which will display the date in two formats and the time.
 

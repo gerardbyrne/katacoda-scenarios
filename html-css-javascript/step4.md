@@ -1,4 +1,4 @@
-# Adding an input control of type range to the form
+###### Let's create some code
 
 Now we have the HTML form with some input boxes and a select control, we will add an additional control to the form. In this step we will add an input control for a **range** which will display a **slider** and when move the value will change.
 

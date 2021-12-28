@@ -1,4 +1,4 @@
-# Adding radio buttons to the form
+###### Let's create some code
 
 Now we have the HTML form with some input boxes, select control, a range slider and a number input, we will add an additional control to the form. In this step we will add an input control for a **radio buttons** which will display a number of choices but the user will only be able to check one of the radio buttons.
 

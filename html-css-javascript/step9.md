@@ -1,4 +1,4 @@
-# Adding a submit button to the form
+###### Let's create some code
 
 Now we have the HTML form with controls, we will add an additional control to the form. This is a very important part of the form and is another input control but it is of type **submit** and we say it is a **submit button**. The submit button is a self closing tag and therefore does not have a matching closing tag. It simply has the closing forward slash at the end of the **`<input />`** tag.
 

@@ -1,4 +1,4 @@
-# Adding input boxes to the form
+###### Let's create some code
 
 Now we have the basic HTML code with the form section added we can start to add the controls that will allow the user to input the details required to obtain the insurance quote for their property.
 

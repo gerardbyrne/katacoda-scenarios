@@ -1,5 +1,4 @@
-### Create a HTML page with an enclosed HTML form
-#### Let's create some code
+###### Let's create some code
 
 We will create a basic Hypertext Markup Language page, HTML page, and then add a form within the HTML page. This will be the start for other scenarios which will add additional elements to the HTML page within the **`<form>`** and **`</form>`** tags.
 
