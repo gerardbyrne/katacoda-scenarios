@@ -15,7 +15,7 @@ At the end of this set of scenarios we will be familiar with HTML form tags such
  - ```<option>```
  - ```<label>```
   
- and we will have completed a HTML form that accepts user input and could be sent (posted) to an application running on a server (the **backend** application).
+and we will have completed a HTML form that accepts user input and could be sent (posted) to an application running on a server (the **backend** application).
 
 In this scenario we will create the base HTML page with a form tag added. The form tag means that data input by the user into the elements enclosed within the ```<form></form>```
 
