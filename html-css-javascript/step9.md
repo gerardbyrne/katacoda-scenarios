@@ -24,3 +24,13 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
 
     </html>
     ```
+
+### CODE ANALYSIS
+
+#### DATE
+
+- the ``<input type="submit">`` defines a button allowing the user to submit the form data, values, to a form handling application.
+- the form handling application is usually a set of files on a server which contains the code, business logic, to process the submitted data.
+- the form handling application is specified in the form's action attribute e.g, in the example here we send the details to adddetailstodatabase which is located on the server running on port 8080:
+   ``<form action="http://localhost:8080/adddetailstodatabase">``
+- **adddetailstodatabase** could be actually calling a method, a block of code.

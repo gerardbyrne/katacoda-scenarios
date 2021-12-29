@@ -24,3 +24,14 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
       <!--  End of row 8 -->
       <br />
    ```
+
+### CODE ANALYSIS ###
+
+- the **select** element is used to accept user input where the user simply picks (selects) from a list of items that are populated by the developer.
+- features of the select tag are:
+  - used to create a drop-down list
+  - most often used in a form, to collect user input
+  - the name attribute is required when we wish to reference the form data after submitting it to the back-end application
+  - if we leave out the name attribute no data from our drop-down list can be submitted 
+  - the id attribute is required when we wish to associate the drop-down list with a label for
+  - the ``<option>`` tags within the ``<select>`` element allow us to define the available options in the drop-down list that will be presented to the user

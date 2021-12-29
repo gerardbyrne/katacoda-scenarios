@@ -161,3 +161,11 @@ In completing this scenario remember we can copy and paste the code included in 
       - the name for each row has been changed.
       - the id for each row has been changed.
       - the for in each label matches the new name in the input.
+
+### CODE ANALYSIS ###
+
+  - comments start with ``<!--`` and end with ``-->``. The line of code below has been used in our code to make a comment. 
+   ``<!-- End of row 1 -->``
+   &nbsp;
+- the line of code below is used to display a blank line
+   ``<br/>``

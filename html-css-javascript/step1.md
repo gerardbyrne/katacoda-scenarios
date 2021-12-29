@@ -105,9 +105,9 @@ In completing this scenario we can copy and paste the code included in these ins
 
 ### CODE ANALYSIS ###
 
-  - The DOCTYPE declaration `<!DOCTYPE html>` defines the document type as HTML
-  - The HTML `<head>` element is a container for other tags such as `<title>, <style>, <meta>, <link>, <script>, <base>`
-  - The `<title>` element
+  - the DOCTYPE declaration `<!DOCTYPE html>` defines the document type as HTML
+  - the HTML `<head>` element is a container for other tags such as `<title>, <style>, <meta>, <link>, <script>, <base>`
+  - the `<title>` element
     - defines the title of the document
     - must contain text-only
     - is required in HTML documents!
@@ -119,18 +119,10 @@ In completing this scenario we can copy and paste the code included in these ins
    - `<h1>` defines the most important heading
    - `<h6>` defines the least important heading
 
- - The HTML `<form>` tag is used to create an HTML form
- - The HTML `</form>` tag is used to close the opening HTML form tag
- - The HTML `<form>` tag can be used to manage where and how the details (values) from the form controls will be sent 
-   - this is achieved by using the 
+ - the HTML `<form>` tag is used to create an HTML form
+ - the HTML `</form>` tag is used to close the opening HTML form tag
+ - the HTML `<form>` tag can be used to manage where and how the details (values) from the form controls will be sent 
+   - this is achieved by using the
      `<form action="" method="POST">`
    - we can also achieve the sending of the form data by using the
      `<form action="" method="GET">`
-
-`docker run -p 80:80 -d katacoda/docker-http-server`{{execute}}
-
-`curl localhost`{{execute}}
-
-https://gerardbyrne-80-2b04772a8d97.environments.katacoda.com
-
-<!-- https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com -->

@@ -37,3 +37,11 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     <!--  End of row 14 -->
     <br />
    ```
+
+### CODE ANALYSIS ###
+
+- the ``<input type="checkbox">`` defines a form field which should be used whenever we want to allow the user to select one or more option.
+- each checkbox will have a different **name** property.
+- there can be more than one selection in a group of checkboxes, so, unlike a radio button, when the user selects one of the checkboxes other checked checkboxes will remain checked.
+- like other controls the value property will usually be unique since this is the value used to represent the individual choice of the user for the checkbox.
+  

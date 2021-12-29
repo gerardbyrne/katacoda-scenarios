@@ -23,3 +23,13 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     <!--  End of row 10 -->
     <br />
    ```
+
+### CODE ANALYSIS ###
+
+- the ``<input type="number">`` defines a form field which accepts numeric input.
+- a number input field can have attributes such as "min", "max" and "step".
+  - min identifies the smallest acceptable value that can be input.
+  - max identifies the largest acceptable value that can be input.
+- by default the values will increase or decrease by 1 when the up/down buttons are used to change the value.
+- the step attribute is used to set the increase/decrease amount to be used when the up/down buttons are used to change the value.
+- when using the step value for decimal / fractional values we should include the leading 0 e.g. 0.2, 0.5

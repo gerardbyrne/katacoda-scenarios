@@ -23,3 +23,11 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
       <!--  End of row 11 -->
       <br />
    ```
+
+### CODE ANALYSIS ###
+
+- the ``<input type="radio">`` defines a form field which should be used whenever we want to give the user a selection between two or more options.
+- all radio buttons have to share the same value in the name property because this ties the radio buttons together in the same group.
+- there can only be one selection in a group of radio buttons, therefore, when the user selects one of the radio buttons any other checked radio button will become unchecked.
+- on the other hand the value property will usually be unique since this is the value used to represent the choice of the user from the group of options.
+  

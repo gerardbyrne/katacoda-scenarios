@@ -4,7 +4,7 @@ Here we will create a simple **Hypertext Markup Language**, **HTML**, form with 
 
 ## What we will do and what we will use
 
-We will develop HTML code using the Visual Studio Code editor to develop a HTML form (the **frontend** application) which can be used later with other scenarios which develop CSS and JavaScript skills.
+We will use the Visual Studio Code editor to develop a HTML form (the **frontend** application) which can be used later with other scenarios which develop CSS and JavaScript skills.
 
 ![Three core frontend technologies!](./assets/html-css-js.jpeg "HTML, CSS annd JavaScript languages")
 
@@ -14,20 +14,21 @@ At the end of this set of scenarios we will be familiar with HTML form tags such
  - ```<select>```
  - ```<option>```
  - ```<label>```
+- ```<submit>```
   
 and we will have completed a HTML form that accepts user input and could be sent (posted) to an application running on a server (the **backend** application).
 
-In this scenario we will create the base HTML page with a form tag added. The form tag means that data input by the user into the elements enclosed within the ```<form></form>```
+In this scenario we will create the base HTML page with a form tag added. The form tag means that data input by the user into the elements enclosed within the ```<form></form>``` can be sent to a back-end application.
 
-Developing frontend skills in HTML, CSS and JavaScript are very important for **Full Stack Development** roles. These skills are frontend skills and the core skill for frontend is HTML.
+Developing frontend skills in HTML, CSS and JavaScript are very important for **Full Stack Development** roles and the core skill for frontend cevelopment is HTML.
 
-HyperText Markup Language allows web developers to create and structure such as paragraphs and hyperlinks to plain text which is then displayed in the browser page. HTML can be used for:
+HyperText Markup Language allows web developers to create structure, such as paragraphs and hyperlinks, to plain text which is then displayed in the browser page. HTML can be used for:
 
 - Web development
   - with web development developers use HTML code to design the layout of web pages with their elements such as text, hyperlinks, and input boxes.
   
 - Web documentation
-  - using Hypertext Markup Language it now possible to create documents, similar to those created in Microsoft Word. The advantage is that we can read such documents in a browser of our choice.
+  - using Hypertext Markup Language it is now possible to create documents, similar to those created in Microsoft Word or other word processors. The advantage is that we can read such documents in a browser of our choice.
   
 ## Learning Objectives (what we will actually do)
 
@@ -38,7 +39,7 @@ HyperText Markup Language allows web developers to create and structure such as 
 
 ## Prerequisite Skills
 
-There are no prerequisites fior this scenario. We just need to believe we can write HTML and this scenario will show us how.
+There are no prerequisites for this scenario. We just need to believe we can write HTML and this scenario will show us how.
 
 ## Table of Contents
 
