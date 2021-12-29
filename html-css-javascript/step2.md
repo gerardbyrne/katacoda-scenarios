@@ -164,8 +164,10 @@ In completing this scenario remember we can copy and paste the code included in 
 
 ### CODE ANALYSIS ###
 
-  - comments start with ``<!--`` and end with ``-->``. The line of code below has been used in our code to make a comment. 
+  - comments start with ``<!--`` and end with ``-->``. The line of code below has been used in our code to make a comment.
+   &nbsp;
    ``<!-- End of row 1 -->``
    &nbsp;
 - the line of code below is used to display a blank line
+ &nbsp;
    ``<br/>``
