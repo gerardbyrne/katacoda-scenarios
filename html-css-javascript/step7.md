@@ -38,7 +38,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     <br />
    ```
 
-### CODE ANALYSIS ###
+## CODE ANALYSIS
 
 - the ``<input type="checkbox">`` defines a form field which should be used whenever we want to allow the user to select one or more option.
 - each checkbox will have a different **name** property.

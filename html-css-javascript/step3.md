@@ -25,7 +25,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
       <br />
    ```
 
-### CODE ANALYSIS ###
+## CODE ANALYSIS
 
 - the **select** element is used to accept user input where the user simply picks (selects) from a list of items that are populated by the developer.
 - features of the select tag are:

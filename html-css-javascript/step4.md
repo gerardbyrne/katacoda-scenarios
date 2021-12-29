@@ -25,9 +25,9 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
       <br />
    ```
 
-### CODE ANALYSIS ###
+## CODE ANALYSIS
 
-  - the input element is used to accept user input and here we have a **range** type declared so the user simply drags a shape along a **slider** which represents a **scale from a start value to an end value**.  
-  - features of the range element are:
-     - they let the user specify a numeric value which must be no less than a developer set minimum value and no more than a developer set maximum value
-     - the precise value will be visibile only by using JavaScript
+- the input element is used to accept user input and here we have a **range** type declared so the user simply drags a shape along a **slider** which represents a **scale from a start value to an end value**.  
+- features of the range element are:
+  - they let the user specify a numeric value which must be no less than a developer set minimum value and no more than a developer set maximum value
+  - the precise value will be visibile only by using JavaScript

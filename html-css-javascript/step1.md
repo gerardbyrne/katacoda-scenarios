@@ -103,26 +103,26 @@ In completing this scenario we can copy and paste the code included in these ins
     </html>
     ```
 
-### CODE ANALYSIS ###
+## CODE ANALYSIS
 
-  - the DOCTYPE declaration `<!DOCTYPE html>` defines the document type as HTML
-  - the HTML `<head>` element is a container for other tags such as `<title>, <style>, <meta>, <link>, <script>, <base>`
-  - the `<title>` element
-    - defines the title of the document
-    - must contain text-only
-    - is required in HTML documents!
-    - defines a title in the browser title bar of the pages tab
-    - provides a title for the page when it is added to favourites
-    - displays a title for the page in search engine-results
+- the DOCTYPE declaration `<!DOCTYPE html>` defines the document type as HTML
+- the HTML `<head>` element is a container for other tags such as `<title>, <style>, <meta>, <link>, <script>, <base>`
+- the `<title>` element
+  - defines the title of the document
+  - must contain text-only
+  - is required in HTML documents!
+  - defines a title in the browser title bar of the pages tab
+  - provides a title for the page when it is added to favourites
+  - displays a title for the page in search engine-results
 
- - HTML headings are defined with the `<h1>` to `<h6>` tags
-   - `<h1>` defines the most important heading
-   - `<h6>` defines the least important heading
+- HTML headings are defined with the `<h1>` to `<h6>` tags
+  - `<h1>` defines the most important heading
+  - `<h6>` defines the least important heading
 
- - the HTML `<form>` tag is used to create an HTML form
- - the HTML `</form>` tag is used to close the opening HTML form tag
- - the HTML `<form>` tag can be used to manage where and how the details (values) from the form controls will be sent 
-   - this is achieved by using the
+- the HTML `<form>` tag is used to create an HTML form
+- the HTML `</form>` tag is used to close the opening HTML form tag
+- the HTML `<form>` tag can be used to manage where and how the details (values) from the form controls will be sent 
+  - this is achieved by using the
      `<form action="" method="POST">`
-   - we can also achieve the sending of the form data by using the
+  - we can also achieve the sending of the form data by using the
      `<form action="" method="GET">`

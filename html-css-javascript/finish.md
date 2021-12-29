@@ -8,8 +8,8 @@ We have:
 - coded a variety of HTML form controls
 - used attributes on HTML tags to customise the tags
 
-
 ## Table of Contents
+
 We started with great expectations to create a HTML web page with a form and related controls and now having reached the end of the scenario we can see that we have stepped through the following stages  
 
 1. creating a basic Hypertext Markup Language document with a form within it

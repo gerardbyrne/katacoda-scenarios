@@ -24,7 +24,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     <br />
    ```
 
-### CODE ANALYSIS ###
+## CODE ANALYSIS
 
 - the ``<input type="number">`` defines a form field which accepts numeric input.
 - a number input field can have attributes such as "min", "max" and "step".

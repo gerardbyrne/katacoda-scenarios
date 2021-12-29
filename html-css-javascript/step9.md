@@ -25,9 +25,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     </html>
     ```
 
-### CODE ANALYSIS
-
-#### DATE
+## CODE ANALYSIS
 
 - the ``<input type="submit">`` defines a button allowing the user to submit the form data, values, to a form handling application.
 - the form handling application is usually a set of files on a server which contains the code, business logic, to process the submitted data.

@@ -24,7 +24,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
       <br />
    ```
 
-### CODE ANALYSIS ###
+## CODE ANALYSIS
 
 - the ``<input type="radio">`` defines a form field which should be used whenever we want to give the user a selection between two or more options.
 - all radio buttons have to share the same value in the name property because this ties the radio buttons together in the same group.

@@ -43,19 +43,19 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     <br />
    ```
 
-### CODE ANALYSIS
+## CODE ANALYSIS
 
-#### DATE
+### DATE
 
 - the **date** input type is widely used across many applications and offers the user a quick way to input a date.
 - the HTML date picker option is built into the browser.  
 - the date input can be made flexible and will allow the user to select a single date, select a week, select a month, select a time, select a date and time, and even date and time with a time zone using the different input types.
-- The format for the date input type is:
+- the format for the date input type is:
    ``<input type="date" id="dateofinsurance" name="dateofinsurance">``
 - like the number input type we can add additional attributes for the min and max dates to ensure our user can only choose from a specified date range. An example is:
    ``<input type="date" id="dateofinsurance" name="dateofinsurance" min="2000-01-01" max="2019-01-01" >``
 
-#### TIME
+### TIME
 
 - the **time** input is widely used across many applications and offers the user a quick way to input a time.
 - the HTML time picker option is built into the browser.  
@@ -65,7 +65,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
 - like the number input type we can add additional attributes for the min and max dates to ensure our user can only choose from a specified time range. An example is:
    ``<input type="time" id="timeofinsurancestart" name="timeofinsurancestart" min=”10:00:00” max=”23:00:00”>``
 
-#### DATETIME-LOCAL
+### DATETIME-LOCAL
 
 - the **datetime-local** input type is widely used across many applications and offers the user a quick way to input a date and time as one object.
 - the HTML datetime-local picker option is built into the browser.  
