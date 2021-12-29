@@ -165,10 +165,7 @@ This has saved us time **but** it is important to look at the new code to see th
 
 ## CODE ANALYSIS
 
-- comments start with ``<!--`` and end with ``-->``. The line of code below has been used in our code to make a comment.
+- comments start with ``<!--`` and end with ``-->``. The line of code ``<!-- End of row 1 -->`` has been used in our code to make a comment.
    &nbsp;
-   ``<!-- End of row 1 -->``
-   &nbsp;
-- the line of code below is used to display a blank line
- &nbsp;
-   ``<br/>``
+
+- the line of code ``<br/>`` is used to display a blank line
