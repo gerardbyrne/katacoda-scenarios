@@ -33,22 +33,22 @@ HyperText Markup Language allows web developers to create structure, such as par
   
 ## IMPORTANT INFORMATION NEEDED TO PREVIEW THE HTML PAGES
 
-Whilst HTML is supported 'straight out of the box' in Visual Studio Code and the editor helps us code correctly **there is no HTML preview** without installing an extension. So we need to install a extension such as **HTML Preview** from the **VS Code Marketplace**.
+Whilst HTML is supported 'straight out of the box' in Visual Studio Code and the editor helps us code correctly, **there is no HTML preview** without installing an extension. So, we need to install a extension such as **HTML Preview** from the **VS Code Marketplace**.
 
-So, in step 1 there will be instructions on how to install **HTML Preview** and how to switch between our HTML code and the web page preview. After doing this installation in step 1 there will be no need to repeat it for the other steps as HTML Preview will be avaliable until we close or refresh the scenario. The steps are shown below for reference and will be duplicated in step 1 as it is at this stage that Visual Studio Code is opened.
+When we come to step 1 there will be instructions on how to install **HTML Preview** and how to switch between our HTML code and the web page preview. After doing this installation in step 1 there will be no need to repeat it for the other steps as HTML Preview will be avaliable until we close or refresh the scenario. The steps are shown below for reference and will be duplicated in step 1 as it is at this stage Visual Studio Code is opened.
 
 ### Installing HTML Preview
 
 With Visual Studio Code open:
 
-- click on the **Extensions** icon
+- click on the **Extensions** icon.
 ![VS Code Extensions icon!](./assets/images/marketplaceicon.png "VS Code Extensions icon")
 
-- type HTML Preview in the search box
-- choose the HTML Preview extension that appears at the top, as shown in the image
+- type HTML Preview in the search box.
+- choose the HTML Preview extension that appears at the top, as shown in the image.
   ![HTML Preview Extension!](./assets/images/htmlpreview.png "HTML Preview Extension")
-- click on the **Install** button
-- click on the Reload button, to reload the Visual Studio Code editor
+- click on the **Install** button.
+- click on the Reload button, to reload the Visual Studio Code editor.
     ![Reload Visual Studio Code editor!](./assets/images/reload.png "Reload Visual Studio Code editor")
 
 Now when we have our HTML code open in Visual Studio Code we can preview it by using the command relevant to our computer:
@@ -60,10 +60,10 @@ Return to the HTML code by clicking on the tab beside this preview tab.
 
 ## Learning Objectives (what we will actually do)
 
-- we will create a HTML document (page)
-- we will create a form within the web page
-- we will use different HTML tags
-- we will use attributes on HTML tags to customise the tags
+- we will create a HTML document (page).
+- we will create a form within the web page.
+- we will use different HTML tags.
+- we will use attributes on HTML tags to customise the tags.
 
 ## Prerequisite Skills
 
@@ -73,7 +73,7 @@ There are no prerequisites for this scenario. We just need to believe we can wri
 
 The list below shows the related scenarios that culminate in the final form:  
 
-1. creating a basic Hypertext Markup Language document with a form within it
+1. creating a basic Hypertext Markup Language document with a form within it.
 2. adding input boxes to the form.
 3. adding an input control of type select to the form.
 4. adding an input control of type range to the form.
