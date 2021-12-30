@@ -1,4 +1,4 @@
-###### Let's create some code
+# INTRODUCTION TO OUR TASK
 
 Now we have the HTML form with controls, we will add an additional control to the form. This is a very important part of the form and is another input control but it is of type **submit** and we say it is a **submit button**. The submit button is a self closing tag and therefore does not have a matching closing tag. It simply has the closing forward slash at the end of the **`<input />`** tag.
 
@@ -7,6 +7,8 @@ The form has controls that we have coded and when the user completes the form th
 In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
 
 Continuing within the **`<form>`** and **`</form>`** tags we will add an additional control.
+
+## Let's create some code
 
 1. We will now open the HTML starter file by clicking on the link below, this is the file we have just created in the previous step:
    **`./assets/Step9StarterHTML.html`{{open}}**
@@ -27,7 +29,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
 
 3. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
 
-4. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+4. Return to the HTML code by clicking on the tab beside this preview tab.
 
 ## CODE ANALYSIS
 

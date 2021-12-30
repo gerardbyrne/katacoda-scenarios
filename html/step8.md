@@ -1,10 +1,12 @@
-###### Let's create some code
+# INTRODUCTION TO OUR TASK
 
 Now we have the HTML form with controls, we will add additional controls to the form. In this step we will add input controls for a **date**, a **time** and a **datetime-local** which will display the date in two formats and the time.
 
 In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
 
 Continuing within the **`<form>`** and **`</form>`** tags we will add an additional control.
+
+## Let's create some code
 
 1. We will now open the HTML starter file by clicking on the link below, this is the file we have just created in the previous step:
    **`./assets/Step8StarterHTML.html`{{open}}**
@@ -45,7 +47,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
 
 5. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
 
-6. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+6. Return to the HTML code by clicking on the tab beside this preview tab.
 
 ## CODE ANALYSIS
 

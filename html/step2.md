@@ -1,8 +1,10 @@
-###### Let's create some code
+# INTRODUCTION TO OUR TASK
 
 Now we have the basic HTML code with the form section added we can start to add the controls that will allow the user to input the details required to obtain the insurance quote for their property.
 
 In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
+
+## Let's create some code
 
 1. We will now open the HTML starter file by clicking on the link below, this is the file we have just created in the previous step:
    **`./assets/Step2StarterHTML.html`{{open}}**
@@ -50,7 +52,7 @@ In completing this scenario remember we can copy and paste the code included in 
 
    - the label tag is used to indicate something about the next control so we add a **for** attribute which includes the name of the control it is supposed to be linked with.
    - this label is being linked or associated with the control which has a name of **prefix**.
- 
+
    ```HTML
         <form action="">
             <!--  Start of row 1 -->
@@ -160,17 +162,18 @@ In completing this scenario remember we can copy and paste the code included in 
 
 10. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
 
-11. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+11. Return to the HTML code by clicking on the tab beside this preview tab.
 
-# IMPORTANT NOTE
+## IMPORTANT NOTE
 
 This has saved us time **but** it is important to look at the new code to see the:
+
 - **similarities**
-   - all inputs are of type text.
-- **changes** 
-   - the name for each row has been changed.
-   - the id for each row has been changed.
-   - the for in each label matches the new name in the input.
+  - all inputs are of type text.
+- **changes**
+  - the name for each row has been changed.
+  - the id for each row has been changed.
+  - the for in each label matches the new name in the input.
 
 ## CODE ANALYSIS
 

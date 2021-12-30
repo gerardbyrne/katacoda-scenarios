@@ -6,9 +6,10 @@ Here we will create a simple **Hypertext Markup Language**, **HTML**, form with 
 
 We will use the Visual Studio Code editor to develop a HTML form (the **frontend** application) which can be used later with other scenarios which develop CSS and JavaScript skills.
 
-![Three core frontend technologies!](./assets/html-css-js.jpeg "HTML, CSS annd JavaScript languages")
+![Three core frontend technologies!](./assets/images/html-css-js.jpeg "HTML, CSS annd JavaScript languages")
 
 At the end of this set of scenarios we will be familiar with HTML form tags such as:
+
 - ```<form>```
 - ```<input>```
 - ```<select>```
@@ -42,17 +43,21 @@ With Visual Studio Code open:
 
 - click on the **Extensions** icon
 
-![VS Code Extensions icon!](./assets/marketplaceicon.png "VS Code Extensions icon")
+![VS Code Extensions icon!](./assets/images/marketplaceicon.png "VS Code Extensions icon")
+
 - type HTML Preview in the search box
 - choose the HTML Preview extension that appears at the top, as shown in the image
-  ![HTML Preview Extension!](./assets/htmlpreview.png "HTML Preview Extension")
+  ![HTML Preview Extension!](./assets/images/htmlpreview.png "HTML Preview Extension")
 - click on the **Install** button
 - click on the Reload button, to reload the Visual Studio Code editor
-    ![Reload Visual Studio Code editor!](./assets/reload.png "Reload Visual Studio Code editor")
+    ![Reload Visual Studio Code editor!](./assets/images/reload.png "Reload Visual Studio Code editor")
 
 Now when we have our HTML code open in Visual Studio Code we can preview it by using the command relevant to our computer:
+
 - if we use a Mac   - command+shift+v
 - if we use Windows - ctrl+shift+v
+
+Return to the HTML code by clicking on the tab beside this preview tab.
 
 ## Learning Objectives (what we will actually do)
 

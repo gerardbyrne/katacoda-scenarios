@@ -1,10 +1,12 @@
-###### Let's create some code
+# INTRODUCTION TO OUR TASK
 
 Now we have the HTML form with some input boxes, select control, a range slider, a number input and a set of radio buttons, we will add an additional control to the form. In this step we will add an input control for a **check boxes** which will display a number of choices where the user will be able to check more than one of the check boxes.
 
 In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
 
 Continuing within the **`<form>`** and **`</form>`** tags we will add an additional control.
+
+## Let's create some code
 
 1. We will now open the HTML starter file by clicking on the link below, this is the file we have just created in the previous step:
    **`./assets/Step7StarterHTML.html`{{open}}**
@@ -40,7 +42,7 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
 
 4. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
 
-5. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+5. Return to the HTML code by clicking on the tab beside this preview tab.
 
 ## CODE ANALYSIS
 
