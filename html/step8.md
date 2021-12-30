@@ -1,6 +1,6 @@
 # INTRODUCTION TO OUR TASK
 
-Now we have the HTML form with controls, we will add additional controls to the form. In this step we will add input controls for a **date**, a **time** and a **datetime-local** which will display the date in two formats and the time.
+Now we have the HTML form with controls, we will add additional controls to the form. In this step we will add input controls for a **date** (:date:), a **time** (:alarm_clock:) and a **datetime-local** which will display the date in two formats and the time.
 
 In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
 

@@ -1,6 +1,6 @@
 # INTRODUCTION TO OUR TASK
 
-Now we have the HTML form with some input boxes, select control, a range slider, a number input and a set of radio buttons, we will add an additional control to the form. In this step we will add an input control for a **check boxes** which will display a number of choices where the user will be able to check more than one of the check boxes.
+Now we have the HTML form with some input boxes, select control, a range slider, a number input and a set of radio buttons, we will add an additional control to the form. In this step we will add an input control for **check boxes** (:ballot_box_with_check:) which will display a number of choices where the user will be able to check more than one of the check boxes.
 
 In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
 
