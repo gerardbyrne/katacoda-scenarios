@@ -38,6 +38,10 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     <br />
    ```
 
+4. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
+
+5. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+
 ## CODE ANALYSIS
 
 - the ``<input type="checkbox">`` defines a form field which should be used whenever we want to allow the user to select one or more option.

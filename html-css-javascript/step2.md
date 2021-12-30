@@ -84,11 +84,16 @@ In completing this scenario remember we can copy and paste the code included in 
       <br/>
    ```
 
-   ### TIME SAVER ###
+7. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
+
+8. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+
+   ### TIME SAVER
+
    Now we could repeat the process of adding 6 more input text boxes by copying and pasting the code for this row and making amendments, but we shall open the file below which will have the additional rows completed.
    &nbsp;
 
-7. Click on the link below to open the file with the input boxes completed.
+9. Click on the link below to open the file with the input boxes completed.
 
    **`./assets/Step2TextInputsHTML.html`{{open}}**
 
@@ -152,6 +157,10 @@ In completing this scenario remember we can copy and paste the code included in 
       </body>
       </html>
       ```
+
+10. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
+
+11. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
 
 # IMPORTANT NOTE
 

@@ -25,6 +25,10 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     </html>
     ```
 
+3. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
+
+4. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+
 ## CODE ANALYSIS
 
 - the ``<input type="submit">`` defines a button allowing the user to submit the form data, values, to a form handling application.

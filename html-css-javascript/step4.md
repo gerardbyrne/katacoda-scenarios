@@ -25,6 +25,10 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
       <br />
    ```
 
+3. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
+
+4. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+
 ## CODE ANALYSIS
 
 - the input element is used to accept user input and here we have a **range** type declared so the user simply drags a shape along a **slider** which represents a **scale from a start value to an end value**.  

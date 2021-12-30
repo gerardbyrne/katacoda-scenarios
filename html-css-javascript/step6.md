@@ -24,6 +24,10 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
       <br />
    ```
 
+3. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
+
+4. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+
 ## CODE ANALYSIS
 
 - the ``<input type="radio">`` defines a form field which should be used whenever we want to give the user a selection between two or more options.

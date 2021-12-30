@@ -43,6 +43,10 @@ Continuing within the **`<form>`** and **`</form>`** tags we will add an additio
     <br />
    ```
 
+5. Preview the code using the HTML Preview command relevant to your computer e.g. command+shift+v.
+
+6. Return to the HTML code by repeating the HTML Preview command e.g. command+shift+v.
+
 ## CODE ANALYSIS
 
 ### DATE

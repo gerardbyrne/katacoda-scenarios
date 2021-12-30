@@ -30,6 +30,30 @@ HyperText Markup Language allows web developers to create structure, such as par
 - Web documentation
   - using Hypertext Markup Language it is now possible to create documents, similar to those created in Microsoft Word or other word processors. The advantage is that we can read such documents in a browser of our choice.
   
+## IMPORTANT INFORMATION NEEDED TO PREVIEW THE HTML PAGES
+
+Whilst HTML is supported 'straight out of the box' in Visual Studio Code and the editor helps us code correctly **there is no HTML preview** without installing an extension. So we need to install a extension such as **HTML Preview** from the **VS Code Marketplace**.
+
+So, in step 1 there will be instructions on how to install **HTML Preview** and how to switch between our HTML code and the web page preview. After doing this installation in step 1 there will be no need to repeat it for the other steps as HTML Preview will be avaliable until we close or refresh the scenario. The steps are shown below for reference and will be duplicated in step 1 as it is at this stage that Visual Studio Code is opened.
+
+### Installing HTML Preview
+
+With Visual Studio Code open:
+
+- click on the **Extensions** icon
+
+![VS Code Extensions icon!](./assets/marketplaceicon.png "VS Code Extensions icon")
+- type HTML Preview in the search box
+- choose the HTML Preview extension that appears at the top, as shown in the image
+  ![HTML Preview Extension!](./assets/htmlpreview.png "HTML Preview Extension")
+- click on the **Install** button
+- click on the Reload button, to reload the Visual Studio Code editor
+    ![Reload Visual Studio Code editor!](./assets/reload.png "Reload Visual Studio Code editor")
+
+Now when we have our HTML code open in Visual Studio Code we can preview it by using the command relevant to our computer:
+- if we use a Mac   - command+shift+v
+- if we use Windows - ctrl+shift+v
+
 ## Learning Objectives (what we will actually do)
 
 - we will create a HTML document (page)
