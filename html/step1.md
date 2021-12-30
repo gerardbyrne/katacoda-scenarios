@@ -7,15 +7,17 @@ Whilst HTML is supported 'straight out of the box' in Visual Studio Code and the
 With Visual Studio Code open:
 
 - click on the **Extensions** icon
-
-![VS Code Extensions icon!](./assets/images/marketplaceicon.png "VS Code Extensions icon")
+  |![VS Code Extensions icon!](./assets/images/marketplaceicon.png "VS Code Extensions icon")|
+  | ----------- |
 
 - type HTML Preview in the search box
 - choose the HTML Preview extension that appears at the top, as shown in the image
-  ![HTML Preview Extension!](./assets/images/htmlpreview.png "HTML Preview Extension")
+  |![HTML Preview Extension!](./assets/images/htmlpreview.png "HTML Preview Extension")|
+  | ----------- |
 - click on the **Install** button
 - click on the Reload button, to reload the Visual Studio Code editor
-    ![Reload Visual Studio Code editor!](./assets/images/reload.png "Reload Visual Studio Code editor")
+  |![Reload Visual Studio Code editor!](./assets/images/reload.png "Reload Visual Studio Code editor")|
+  | ----------- |
 
 Now when we have our HTML code open in Visual Studio Code we can preview it by using the command relevant to our computer:
 
