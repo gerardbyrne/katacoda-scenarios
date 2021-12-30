@@ -100,7 +100,7 @@ In completing this scenario remember we can copy and paste the code included in 
    **`./assets/Step2TextInputsHTML.html`{{open}}**
 
    &nbsp;
-   The code will be as shown below :
+   The code will be as shown below:
 
    ```HTML
    <!DOCTYPE html>
