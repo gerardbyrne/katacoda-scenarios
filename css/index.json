@@ -1,24 +1,24 @@
 {
-  "title": "HTML FORMS - AN INTRODUCTION ",
-  "description": "Learn to develop a small web application that accepts the user input required to receive an insurance quote for a property.",
+  "title": "Cascading Style Sheets (CSS) using Bootstrap",
+  "description": "Learn to style an a small web application that accepts the user input required to receive an insurance quote for a property.",
   "difficulty": "Beginner",
   "time": "20 minutes",
   "details": {
     "steps": [
       {
-        "title": "Creating a basic Hypertext Markup Language document with enclosed form",
+        "title": "Adding links to the Bootstrap library",
         "text": "step1.md"
       },
       {
-        "title": "Adding input boxes to the form",
+        "title": "Adding a Bootstrap container with enclosed panel",
         "text": "step2.md"
       },
       {
-        "title": "Adding an input control of type select to the form",
+        "title": "Adding Bootstrap rows with their 12 columns to the input controls of type text",
         "text": "step3.md"
       },
       {
-        "title": "Adding an input control of type range to the form",
+        "title": "Adding a Bootstrap row with its 12 columns to the select control",
         "text": "step4.md"
       },
       {
@@ -53,7 +53,7 @@
 			"client": [
 				{ "file": "Step1StarterHTML.html", "target": "~/assets" },
         { "file": "Step2StarterHTML.html", "target": "~/assets" },
-        { "file": "Step2TextInputsHTML.html", "target": "~/assets" },
+        { "file": "Step3CompletedL.html", "target": "~/assets" },
         { "file": "Step3StarterHTML.html", "target": "~/assets" },
         { "file": "Step4StarterHTML.html", "target": "~/assets" },
         { "file": "Step5StarterHTML.html", "target": "~/assets" },
