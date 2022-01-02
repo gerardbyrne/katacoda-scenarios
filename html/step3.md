@@ -2,7 +2,7 @@
 
 Now we have the HTML form with some input boxes that will hold text, we will add a additional control to the form. In this step we will add a **select** control which will display a **drop-down** list of **options** for the user, and they will be expected to choose one of the options.
 
-In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
+In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code ourselves**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
 
 Continuing within the **`<form>`** and **`</form>`** tags we will add an additional control.
 

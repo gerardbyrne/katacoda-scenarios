@@ -2,7 +2,7 @@
 
 Now we have the basic HTML code with the form section added we can start to add the controls that will allow the user to input the details required to obtain the insurance quote for their property.
 
-In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
+In completing this scenario remember we can copy and paste the code included in these instructions **but it is much better to type the code ourselves**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
 
 ## Let's create some code
 
@@ -22,7 +22,7 @@ In completing this scenario remember we can copy and paste the code included in 
 
       <body>
          <h1>Property Insurance Application</h1>
-         <h3>GDC Insurance Limited</h3>
+         <h3>General Insurance Limited</h3>
 
       <form action="">
       <!--  Start of row 1 -->
@@ -40,7 +40,7 @@ In completing this scenario remember we can copy and paste the code included in 
 
       <body>
          <h1>Property Insurance Application</h1>
-         <h3>GDC Insurance Limited</h3>
+         <h3>General Insurance Limited</h3>
 
       <form action="">
       <!--  Start of row 1 -->
@@ -112,11 +112,12 @@ In completing this scenario remember we can copy and paste the code included in 
 
    <body>
       <h1>Property Insurance Application</h1>
-      <h3>GDC Insurance Limited</h3>
+      <h3>General Insurance Limited</h3>
 
       <form action="">
          <!--  Start of row 1 -->
          <label for="prefix">Prefix</label>
+         <input type="text" name="prefix" id="prefix" placeholder="Prefix e.g. Ms, Mr, Dr..."/>
          <!--  End of row 1 -->
 
          <!--  Start of row 2 -->

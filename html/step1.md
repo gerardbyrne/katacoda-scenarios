@@ -37,7 +37,7 @@ The final code for the basic HTML page in the step will be:
   </head>
   <body>
     <h1>Property Insurance Application</h1>
-    <h3>GDC Insurance Limited</h3>
+    <h3>General Insurance Limited</h3>
   </body>
 </html>
 ```
@@ -52,7 +52,7 @@ While the final code in the step including the form tag, ```<form action=""> </f
   </head>
   <body>
     <h1>Property Insurance Application</h1>
-    <h3>GDC Insurance Limited</h3>
+    <h3>General Insurance Limited</h3>
 
        <form action="">
        </form>
@@ -60,7 +60,7 @@ While the final code in the step including the form tag, ```<form action=""> </f
 </html>
 ```
 
-In completing this scenario we can copy and paste the code included in these instructions **but it is much better to type the code yourself**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
+In completing this scenario we can copy and paste the code included in these instructions **but it is much better to type the code ourselves**. It is only by practice, making mistakes and correcting the mistakes that our learning is reinforced.
 
 ###### Let's create some code
 
@@ -92,7 +92,7 @@ In completing this scenario we can copy and paste the code included in these ins
       <h1>Property Insurance Application</h1>
     ```
 
-4. Now add a h3 header, **GDC Insurance Limited**, to the page by adding the text between the tags **`<h3>`** and **`</h3>`**.
+4. Now add a h3 header, **General Insurance Limited**, to the page by adding the text between the tags **`<h3>`** and **`</h3>`**.
 
    ```HTML
     <!DOCTYPE html>
@@ -104,7 +104,7 @@ In completing this scenario we can copy and paste the code included in these ins
 
     <body>
       <h1>Property Insurance Application</h1>
-      <h3>GDC Insurance Limited</h3>
+      <h3>General Insurance Limited</h3>
    ```
 
 5. Now add the tags required to create a HTML form. The form tag will have an opening tag, **`<form>`** and a matching closing tag **`</form>`**. The form in a HTML page will be located within the **`<body>`** and **`</body>`** tags as shown below:
@@ -119,7 +119,7 @@ In completing this scenario we can copy and paste the code included in these ins
 
     <body>
         <h1>Property Insurance Application</h1>
-        <h3>GDC Insurance Limited</h3>`
+        <h3>General Insurance Limited</h3>`
 
         <form action="">
         </form>

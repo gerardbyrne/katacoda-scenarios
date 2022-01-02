@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>HTML Forms</title>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
+
+  <!-- <form name="form" method="POST" action="" onsubmit="submitPageValues()" id="newuserdetailsform"></form> -->
+  <form action="" onsubmit="ReadAndCheckFormData()" name="propertyinsurancedetails">
+    <div class="container">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h1 style="color: red">Property Insurance Application</h1>
+          <h3 style="color: white">GDC Insurance Limited</h3>
+        </div>
+        <div class="panel-heading">
+          <div class="row">
+            <div class="col-xs-4">
+              <a href="htmlformwithbootstrap.html" style="color: white">Quote form</a>
+            </div>
+            <div class="col-xs-4">
+              <a href="htmllaptopdetailsform.html" style="color: white">Laptop form</a>
+            </div>
+            <div class="col-xs-4">
+              <a href="htmljewellerydetailsform.html" style="color: white">Jewellery form</a>
+            </div>
+          </div>
+          <!-- End of row -->
+        </div>
+
+        <div class="panel-heading">
+          <div class="row">
+            <!-- <div class="panel panel-danger" id="errorBoxPanel"> -->
+            <div class="panel-heading" id="errorBox" align="center">
+              <strong>Error Messages</strong>
+            </div>
+            <!-- End of panel-heading -->
+            <!-- </div> -->
+            <!-- End of panel-danger -->
+          </div>
+          <!-- End of row -->
+        </div>
+
+        <div class="panel-body">
+          <!--  Start of row 1 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="prefix">Prefix</label>
+            </div>
+
+            <div class="col-xs-4">
+              <input type="text" name="prefix" id="prefix" placeholder="Prefix e.g. Ms, Mr, Dr..." />
+            </div>
+            <span id="prefixCorrectSpan"></span>
+          </div>
+          <!--  End of row 1 -->
+
+          <!--  Start of row 2 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="firstname">First Name</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="text" name="firstname" id="firstname" />
+            </div>
+            <span id="firstNameCorrectSpan"></span>
+          </div>
+          <!--  End of row 2 -->
+
+          <!--  Start of row 3 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="lastname">Last Name</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="text" name="lastname" id="lastname" />
+            </div>
+            <span id="lastNameCorrectSpan"></span>
+          </div>
+          <!--  End of row 3 -->
+
+          <!--  Start of row 4 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="housenumber">House Number</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="text" name="housenumber" id="housenumber" />
+            </div>
+            <span id="houseNumberCorrectSpan"></span>
+          </div>
+          <!--  End of row 4 -->
+
+          <!--  Start of row 5 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="street">Street Name</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="text" name="street" id="street" />
+            </div>
+            <span id="streetCorrectSpan"></span>
+          </div>
+          <!--  End of row 5 -->
+
+          <!--  Start of row 6 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="city">City</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="text" name="city" id="city" />
+            </div>
+            <span id="cityCorrectSpan"></span>
+          </div>
+          <!--  End of row 6 -->
+
+          <!--  Start of row 7 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="postcode">Postcode</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="text" name="postcode" id="postcode" />
+            </div>
+            <span id="postcodeCorrectSpan"></span>
+          </div>
+          <!--  End of row 7 -->
+
+          <!--  Start of row 8 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="hometype">Home Type</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <select name="hometype" id="hometype">
+                <option label="Select Type" value="Select Type"></option>
+                <option label="House" value="House"></option>
+                <option label="Bungalow" value="Bungalow"></option>
+                <option label="Apartment" value="Apartment"></option>
+                <option label="Ranch" value="Ranch"></option>
+              </select>
+            </div>
+            <span id="homeTypeCorrectSpan"></span>
+          </div>
+          <!--  End of row 8 -->
+
+          <!--  Start of row 9 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="homevalue">Current Property Value<span id="propertyValueCorrectSpan"></span></label>
+            </div>
+            <div class="col-xs-2" style="padding-bottom: 5px">
+              <input type="range" id="homevalue" name="homevalue" value="0" min="0" max="5000000"
+                oninput="document.getElementById('propertyprice').innerHTML = this.value" />
+            </div>
+            <div class="col-xs-2">
+              <label id="propertyprice"></label>
+            </div>
+            <span id="homeValueCorrectSpan"></span>
+          </div>
+          <!--  End of row 9 -->
+
+          <!--  Start of row 10 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="ageofproperty">Age of property</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="number" name="ageofproperty" id="ageofproperty" min="1" max="100" value="0" />
+            </div>
+            <span id="propertyAgeCorrectSpan"></span>
+          </div>
+          <!--  End of row 10 -->
+
+          <!--  Start of row 11 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="insurancetype">Building and contents</label>
+            </div>
+            <div class="col-xs-1" style="padding-bottom: 5px">
+              <input type="radio" name="insurancetype" id="buildingandcontents" value="buildingandcontents" />
+            </div>
+
+            <div class="col-xs-2">
+              <label for="insurancetype">Contents only</label>
+            </div>
+            <div class="col-xs-1" style="padding-bottom: 5px">
+              <input type="radio" name="insurancetype" id="contents" value="contents" />
+            </div>
+            <span id="insuranceTypeCorrectSpan"></span>
+          </div>
+          <!--  End of row 11 -->
+
+          <!--  Start of row 12 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="chklaptop">Include 1 laptop (less than $3000)</label>
+            </div>
+            <div class="col-xs-1" style="padding-bottom: 5px">
+              <input type="checkbox" name="chklaptop" id="chklaptop" value="laptop" />
+            </div>
+          </div>
+          <!--  End of row 12 -->
+
+          <!--  Start of row 13 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="chkJewellery">Include 1 high value jewellery item (less than $6000)</label>
+            </div>
+            <div class="col-xs-1" style="padding-bottom: 5px">
+              <input type="checkbox" name="chkJewellery" id="chkJewellery" value="jewellery" />
+            </div>
+          </div>
+          <!--  End of row 13 -->
+
+          <!--  Start of row 14 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="chkAwayFromHome">Include insurance for items while out of property</label>
+            </div>
+            <div class="col-xs-1" style="padding-bottom: 5px">
+              <input type="checkbox" name="chkAwayFromHome" id="chkAwayFromHome" value="awayfromhome" />
+            </div>
+          </div>
+          <!--  End of row 14 -->
+
+          <!--  Start of row 15 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="insurancestartdate">Insurance Start Date:</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="date" id=" insurancestartdate " name="insurancestartdate" min="2022-01-01"
+                max="2022-12-31" />
+            </div>
+          </div>
+          <!--  End of row 15 -->
+
+          <!--  Start of row 16 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="insurancestarttime">Insurance Start Time:</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="time" id="insurancestarttime" name="insurancestarttime" min="00:00:00" />
+            </div>
+          </div>
+          <!--  End of row 16 -->
+
+          <!--  Start of row 17 -->
+          <div class="row">
+            <div class="col-xs-4">
+              <label for="datetimeofinsurancestart">Insurance Start Date and Time:</label>
+            </div>
+            <div class="col-xs-4" style="padding-bottom: 5px">
+              <input type="datetime-local" id="datetimeofinsurancestart" name="datetimeofinsurancestart" />
+            </div>
+          </div>
+          <!-- End of row 17 -->
+
+          <!-- Start of last row -->
+          <button type="submit" class="btn btn-primary" value="Submit details to server application">
+            Obtain a Quote
+          </button>
+          <button type="button" class="btn btn-primary" id="validateuserdetails" onClick="ReadFormData()">
+            Validate Form Data
+          </button>
+          <!--  End of last row -->
+        </div> <!-- Panel Body -->
+      </div> <!-- Panel Primary -->
+    </div> <!-- Container -->
+  </form>
+</body>
+
+</html>
