@@ -61,7 +61,6 @@
         { "file": "Step7StarterHTML.html", "target": "~/assets" },
         { "file": "Step8StarterHTML.html", "target": "~/assets" },
         { "file": "Step9StarterHTML.html", "target": "~/assets" },
-        { "file": "Step9CompletedHTML.html", "target": "~/assets" }
 			]
 		}
   },
