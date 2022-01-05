@@ -1,4 +1,5 @@
 {
+  "private":"true",
   "title": "Cascading Style Sheets (CSS) using Bootstrap",
   "description": "Learn to style an a small web application that accepts the user input required to receive an insurance quote for a property.",
   "difficulty": "Beginner",
