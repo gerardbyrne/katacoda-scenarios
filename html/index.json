@@ -9,7 +9,7 @@
       {
         "title": "Creating a basic Hypertext Markup Language document with enclosed form",
         "text": "step1.md",
-        "code":"run-foreground.sh" 
+        "code":"foreground.sh" 
       },
       {
         "title": "Adding input boxes to the form",
