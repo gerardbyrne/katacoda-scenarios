@@ -3,89 +3,215 @@
 
 <head>
     <title>HTML Forms</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
-    <h1>Property Insurance Application</h1>
-    <h3>General Insurance Limited</h3>
-
     <form action="">
-        <!--  Start of row 1 -->
-        <label for="prefix">Prefix</label>
-        <input type="text" name="prefix" id="prefix" placeholder="Prefix e.g. Ms, Mr, Dr..." />
-        <!--  End of row 1 -->
+        <div class="container">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <h1>Property Insurance Application</h1>
+                    <h3 ">GDC Insurance Limited</h3>
+                </div> <!-- Close Panel Heading-->
+                <div class=" panel-body">
 
-        <!--  Start of row 2 -->
-        <label for="firstname">First Name</label>
-        <input type="text" name="firstname" id="firstname" />
-        <!--  End of row 2 -->
-        <br />
+                        <!--  Start of row 1 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="prefix">Prefix</label>
+                            </div>
 
-        <!--  Start of row 3 -->
-        <label for="lastname">Last Name</label>
-        <input type="text" name="lastname" id="lastname" />
-        <!--  End of row 3 -->
-        <br />
+                            <div class="col-xs-4" style="padding-bottom: 5px">
+                                <input type="text" name="prefix" id="prefix" placeholder="Prefix e.g. Ms, Mr, Dr..." />
+                            </div>
+                            <span id="prefixCorrectSpan"></span>
+                        </div>
+                        <!--  End of row 1 -->
 
-        <!--  Start of row 4 -->
-        <label for="housenumber">House Number</label>
-        <input type="text" name="housenumber" id="housenumber" />
-        <!--  End of row 4 -->
-        <br />
+                        <!--  Start of row 2 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="firstname">First Name</label>
+                            </div>
+                            <div class="col-xs-4" style="padding-bottom: 5px">
+                                <input type="text" name="firstname" id="firstname" />
+                            </div>
+                            <span id="firstNameCorrectSpan"></span>
+                        </div>
+                        <!--  End of row 2 -->
 
-        <!--  Start of row 5 -->
-        <label for="street">Street Name</label>
-        <input type="text" name="street" id="street" />
-        <!--  End of row 5 -->
-        <br />
+                        <!--  Start of row 3 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="lastname">Last Name</label>
+                            </div>
+                            <div class="col-xs-4" style="padding-bottom: 5px">
+                                <input type="text" name="lastname" id="lastname" />
+                            </div>
+                            <span id="lastNameCorrectSpan"></span>
+                        </div>
+                        <!--  End of row 3 -->
 
-        <!--  Start of row 6 -->
-        <label for="city">City</label>
-        <input type="text" name="city" id="city" />
-        <!--  End of row 6 -->
-        <br />
+                        <!--  Start of row 4 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="housenumber">House Number</label>
+                            </div>
+                            <div class="col-xs-4" style="padding-bottom: 5px">
+                                <input type="text" name="housenumber" id="housenumber" />
+                            </div>
+                            <span id="houseNumberCorrectSpan"></span>
+                        </div>
+                        <!--  End of row 4 -->
 
-        <!--  Start of row 7 -->
-        <label for="postcode">Postcode</label>
-        <input type="text" name="postcode" id="postcode" />
-        <!--  End of row 7 -->
-        <br />
+                        <!--  Start of row 5 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="street">Street Name</label>
+                            </div>
+                            <div class="col-xs-4" style="padding-bottom: 5px">
+                                <input type="text" name="street" id="street" />
+                            </div>
+                            <span id="streetCorrectSpan"></span>
+                        </div>
+                        <!--  End of row 5 -->
 
-        <!--  Start of row 8 -->
-        <label for="hometype">Home Type</label>
-        <select name="hometype" id="hometype">
-            <option label="House" value="House"></option>
-            <option label="Bungalow" value="Bungalow"></option>
-            <option label="Apartment" value="Apartment"></option>
-            <option label="Ranch" value="Ranch"></option>
-        </select>
-        <!--  End of row 8 -->
-        <br />
+                        <!--  Start of row 6 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="city">City</label>
+                            </div>
+                            <div class="col-xs-4" style="padding-bottom: 5px">
+                                <input type="text" name="city" id="city" />
+                            </div>
+                            <span id="cityCorrectSpan"></span>
+                        </div>
+                        <!--  End of row 6 -->
 
-        <!--  Start of row 9 -->
-        <label for="homevalue">Current Property Value</label>
-        <input type="range" id="homevalue" name="homevalue" value="00" min="0" max="5000000"
-            oninput="document.getElementById('propertyprice').innerHTML = this.value" />
-        <label id="propertyprice"></label>
-        <!--  End of row 9 -->
-        <br />
+                        <!--  Start of row 7 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="postcode">Postcode</label>
+                            </div>
+                            <div class="col-xs-4" style="padding-bottom: 5px">
+                                <input type="text" name="postcode" id="postcode" />
+                            </div>
+                            <span id="postcodeCorrectSpan"></span>
+                        </div>
+                        <!--  End of row 7 -->
 
-        <!--  Start of row 10 -->
-        <label for="ageofproperty">Age of property</label>
-        <input type="number" name="ageofproperty" id="ageofproperty" min="1" max="100" />
-        <!--  End of row 10 -->
-        <br />
+                        <!--  Start of row 8 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="hometype">Home Type</label>
+                            </div>
+                            <div class="col-xs-4">
+                                <select name="hometype" id="hometype">
+                                    <option label="Select Type" value="Select Type"></option>
+                                    <option label="House" value="House"></option>
+                                    <option label="Bungalow" value="Bungalow"></option>
+                                    <option label="Apartment" value="Apartment"></option>
+                                    <option label="Ranch" value="Ranch"></option>
+                                </select>
+                            </div>
+                        </div>
+                        <!--  End of row 8 -->
+                        <br />
 
-        <!--  Start of row 11 -->
-        <label for="insurancetype">Building and contents insurance </label>
-        <input type="radio" name="insurancetype" id="buildingandcontents" value="buildingandcontents" />
+                        <!--  Start of row 9 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="homevalue">Current Property Value<span
+                                        id="propertyValueCorrectSpan"></span></label>
+                            </div>
+                            <div class="col-xs-2" style="padding-bottom: 5px">
+                                <input type="range" id="homevalue" name="homevalue" value="0" min="0" max="5000000"
+                                    oninput="document.getElementById('propertyprice').innerHTML = this.value" />
+                            </div>
+                            <div class="col-xs-2">
+                                <label id="propertyprice"></label>
+                            </div>
+                        </div>
+                        <!--  End of row 9 -->
+                        <br />
 
-        <label for="insurancetype">Contents only insurance </label>
-        <input type="radio" name="insurancetype" id="contents" value="contents" />
-        <!--  End of row 11 -->
-        <br />
+                        <!--  Start of row 10 -->
+                        <div class="row">
+                            <div class="col-xs-4">
+                                <label for="ageofproperty">Age of property</label>
+                            </div>
+                            <div class="col-xs-4" style="padding-bottom: 5px">
+                                <input type="number" name="ageofproperty" id="ageofproperty" min="1" max="100"
+                                    value="0" />
+                            </div>
+                        </div>
+                        <!--  End of row 10 -->
 
+                        <!--  Start of row 11 -->
+                        <label for="insurancetype">Building and contents insurance </label>
+                        <input type="radio" name="insurancetype" id="buildingandcontents" value="buildingandcontents" />
+
+                        <label for="insurancetype">Contents only insurance </label>
+                        <input type="radio" name="insurancetype" id="contents" value="contents" />
+                        <!--  End of row 11 -->
+                        <br />
+
+                        <!--  Start of row 12 -->
+                        <input type="checkbox" name="chklaptop" id="chklaptop" value="laptop" />
+                        <label for="chklaptop">Include 1 laptop (less than $3000)</label>
+                        <!--  End of row 12 -->
+                        <br />
+
+                        <!--  Start of row 13 -->
+                        <input type="checkbox" name="chkJewellery" id="chkJewellery" value="jewellery" />
+                        <label for="chkJewellery">Include 1 high value jewellery item (less than $6000)</label>
+                        <!--  End of row 13 -->
+                        <br />
+
+                        <!--  Start of row 14 -->
+                        <input type="checkbox" name="chkAwayFromHome" id="chkAwayFromHome" value="awayfromhome" />
+                        <label for="chkAwayFromHome">Include insurance for items while out of property</label>
+                        <!--  End of row 14 -->
+                        <br />
+
+                        <!--  Start of row 15 -->
+                        <label for="insurancestartdate">Insurance Start Date:</label>
+                        <input type="date" id=" insurancestartdate " name="insurancestartdate" min="2022-01-01"
+                            max="2022-12-31" />
+                        <!--  End of row 15 -->
+                        <br />
+
+                        <!--  Start of row 16 -->
+                        <label for="insurancestarttime">Insurance Start Time:</label>
+                        <input type="time" id="insurancestarttime" name="insurancestarttime" min="00:00:00" />
+                        <!--  End of row 16 -->
+                        <br />
+
+                        <!--  Start of row 17 -->
+                        <label for="datetimeofinsurancestart">Insurance Start Date and Time:</label>
+                        <input type="datetime-local" id="datetimeofinsurancestart" name="datetimeofinsurancestart" />
+                        <!--  End of row 17 -->
+                        <br />
+
+                        <!-- Start of last row -->
+                        <input type="submit" value="Submit details to server application" />
+                        <!--  End of last row -->
+                </div> <!-- Close Panel Body -->
+            </div> <!-- Close Panel Primary -->
+        </div> <!-- Close Container -->
     </form>
+
+    <!-- Optional JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

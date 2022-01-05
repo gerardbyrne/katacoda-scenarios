@@ -1,6 +1,6 @@
 # INTRODUCTION TO OUR TASK
 
-Now we have the idea of a row with columns and can see the way the page looks as a result of addig the Bootstrap row and columns, we will continue the process for the other controls on the web page.
+Now we have the idea of a row with columns and can see the way the page looks as a result of adding the Bootstrap row and columns, we will continue the process for the other controls on the web page.
 
    ```HTML
    <!--  Start of row 8 -->
@@ -27,7 +27,7 @@ Now we have the idea of a row with columns and can see the way the page looks as
    **`./assets/Step4StarterHTML.html`{{open}}**
      &nbsp;
 
-   Now we want to add a Bootstrap row to hold our label for the home type select control. We have all the codd required for the HTML control so it is only a matter of adding the required row div and the column divs.
+   Now we want to add a Bootstrap row to hold our label for the home type select control. We have all the code required for the HTML control so it is only a matter of adding the required row div and the column divs.
 
 2. Within the comments for our existing row 8 we will add a div for a row.
 
@@ -65,7 +65,7 @@ Now we have the idea of a row with columns and can see the way the page looks as
 
    We will repeat the same process for the next 4 columns and add the input control for the prefix.
 
-6. Now we want to add a div for the second 4 columns of the Bootstrap row, remembering that Bootstrap is based on a 12 column grid and we have already used the first 4.:
+6. Now we want to add a div for the second 4 columns of the Bootstrap row, remembering that Bootstrap is based on a 12 column grid and we have already used the first 4.
 
    ```HTML
    <!--  Start of row 8 -->
