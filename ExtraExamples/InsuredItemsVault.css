@@ -1,0 +1,87 @@
+﻿body {
+  color: #00f;
+  font-family: Verdana, Helvetica, Sans-Serif;
+  font-size: 0.75em;
+}
+
+h1 {
+  border-top: 2px double #cdcdcd;
+  width: 60%;
+  margin: 25px 0px 30px 0px;
+  border-bottom: 2px double #cdcdcd;
+}
+
+h3 {
+  width: 30%;
+  margin: 25px 0px 30px 0px;
+}
+
+p {
+  padding: 5px 0px 5px 0px;
+}
+
+label {
+  padding-right: 5px;
+  width: 25em;
+  float: left;
+}
+
+input,
+select {
+  padding: 5px;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  border: 1px solid #cdcdcd;
+}
+
+li {
+  padding-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px;
+  width: 450px;
+}
+
+input[type="button"] {
+  background-color: #4c77af; /* Blue */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+}
+
+fieldset {
+  float: left;
+  width: 450px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #0000ff;
+  background-color: #eeeeff;
+}
+
+.validate{
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 10px;
+  width: 450px;
+}

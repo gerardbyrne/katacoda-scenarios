@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Insured Item Vault</title>
+    <link href="InsuredItemsVault.css" rel="stylesheet" />
+    <script src="InsuredItemsVaultFunctions.js" type="text/javascript"></script>
+</head>
+
+<body id="main">
+
+    <h1>Store insured items form</h1>
+
+    <h3>Enter the insured items</h3>
+
+    <form name="insureditemsform" action="">
+
+        <p>
+            <label for="itemdescription">Item description: </label>
+            <input id="itemdescription" name="itemdescription" type="text" />
+        </p>
+
+        <p>
+            <label for="itemserialnumber">Item serial number or identifier: </label>
+            <input id="itemserialnumber" name="itemserialnumber" type="text" />
+        </p>
+
+        <p>
+            <label for="itemvalue">Item valuation: </label>
+            <input id="itemvalue" name="itemvalue" type="text" />
+        </p>
+
+        <p>
+            <label for="itemowner">Item owner: </label>
+            <input id="itemowner" name="itemowner" type="text" />
+        </p>
+
+        <p>
+            <label for="itemlocation">Item location: </label>
+            <input id="itemlocation" name="itemlocation" type="text" />
+        </p>
+
+        <p>
+            <input type="submit" value="Add insured item to your vault" onclick="return doAdd()" />
+            <br />
+            <input type="button" class="validate" value="validate" onclick="return validate(insureditemsform)" />
+        </p>
+    </form>
+
+    <fieldset id="allInsuredItems">
+        <legend>Click on the required button to display the ordered insured items</legend>
+        <input type="button" value="Sort" onclick="return doSort()" />
+        <input type="button" value="Reverse" onclick="return doReverse()" />
+        <br />
+        <span id="numberOfItems"></span>
+        <br />
+        <span id="allInsuredItemsList"></span>
+    </fieldset>
+
+    <fieldset id="matchingInsuredItems">
+        <legend>Enter the phrase and click the search button to find matching items</legend>
+        <input id="searchString" name="searchString" type="text" />
+        <input type="button" value="Search" onclick="return doSearch()" /> <br />
+        <div id="matchingInsuredItemsList"></div>
+        <span id="matchingInsuredProductsList"></span>
+    </fieldset>
+
+
+</body>
+
+</html>
